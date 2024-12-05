@@ -16,7 +16,7 @@ const MobileMenu = ({ isOpen, onClose, navItems, onNavClick }: MobileMenuProps) 
       <div className="p-4 flex justify-end">
         <button
           onClick={onClose}
-          className="p-2 hover:bg-[#D2D7FF] rounded-full transition-colors"
+          className="p-2 hover:bg-[#F9F9F3] rounded-full transition-colors"
         >
           <X className="h-6 w-6" />
         </button>
@@ -27,7 +27,7 @@ const MobileMenu = ({ isOpen, onClose, navItems, onNavClick }: MobileMenuProps) 
             key={item}
             href={`#${item.toLowerCase()}`}
             onClick={(e) => onNavClick(e, item)}
-            className="text-2xl text-gray-800 hover:text-[#D2D7FF] transition-colors duration-200 font-medium"
+            className="text-2xl text-gray-800 hover:text-[#F9F9F3] transition-colors duration-200 font-medium"
           >
             {item}
           </a>
