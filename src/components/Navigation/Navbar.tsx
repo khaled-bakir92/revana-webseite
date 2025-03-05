@@ -29,15 +29,18 @@ const Navbar = () => {
     <>
       <nav className="fixed top-0 left-0 right-0 bg-[#DFF5E1] z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+          <div className="flex items-center justify-between h-18">
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <div className="flex items-center gap-2">
-                  <div className="bg-[#F9F9F3] p-2 rounded-lg">
-                    <span className="font-bold text-xl">RK</span>
+                <div className="">
+                    <img 
+                      src="/img/logo-rewe.svg" 
+                      alt="RK Logo" 
+                      className="h-20 w-auto pt-2 pb-2 md:pt-1 md:pb-1"
+                    />
                   </div>
                   <button className="p-2 hover:bg-[#F9F9F3] rounded-full transition-colors">
-                    <Globe className="h-5 w-5" />
                   </button>
                 </div>
               </div>

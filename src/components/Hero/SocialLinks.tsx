@@ -4,7 +4,7 @@ import { Instagram, Linkedin, Mail } from 'lucide-react';
 const SocialLinks = () => {
   const socialLinks = [
     { icon: Instagram, href: 'https://www.instagram.com/revana.khibo?igsh=MTF4cDA3Mjdjd3Q1Yg==', label: 'Instagram' },
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/revana-khibo-5b4150295/?originalSubdomain=at', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/revana-khibo', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:revana.khibo94@gmail.com', label: 'Email' },
   ];
 

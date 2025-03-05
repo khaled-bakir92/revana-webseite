@@ -8,7 +8,7 @@ const FooterSection = () => {
   const socialLinks = [
     { icon: Facebook, href: 'https://www.facebook.com/share/17nokpW2co/?mibextid=LQQJ4d', label: 'Facebook' },
     { icon: Instagram, href: 'https://www.instagram.com/revana.khibo?igsh=MTF4cDA3Mjdjd3Q1Yg==', label: 'Instagram' },
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/revana-khibo-5b4150295/?originalSubdomain=at', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/revana-khibo', label: 'LinkedIn' },
     { icon: Twitter, href: 'https://twitter.com', label: 'X (Twitter)' },
   ];
 
@@ -33,7 +33,7 @@ const FooterSection = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="bg-[#F9F9F3] p-2 rounded-lg">
-                <span className="font-bold text-xl">REWE</span>
+                <span className="font-bold text-xl">REVANA KHIBO</span>
               </div>
             </div>
             <p className="text-gray-600">
@@ -56,7 +56,7 @@ const FooterSection = () => {
         <div className="border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-600 text-sm">
-              © 2024 REWE. All rights reserved.
+              © 2024 REVANA KHIBO. All rights reserved.
             </p>
             <SocialLinks links={socialLinks} />
           </div>
